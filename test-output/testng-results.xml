@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30724" started-at="2022-01-27T07:02:54Z" finished-at="2022-01-27T07:03:25Z">
+    <groups>
+    </groups>
+    <test name="Google" duration-ms="22789" started-at="2022-01-27T07:02:54Z" finished-at="2022-01-27T07:03:17Z">
+      <class name="a1_sample1.A1_SampleTest1">
+        <test-method status="PASS" signature="loadGoogle()[pri:0, instance:a1_sample1.A1_SampleTest1@a67c67e]" name="loadGoogle" duration-ms="22327" started-at="2022-01-27T12:32:54Z" finished-at="2022-01-27T12:33:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadGoogle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:a1_sample1.A1_SampleTest1@a67c67e]" name="tearDown" is-config="true" duration-ms="418" started-at="2022-01-27T12:33:16Z" finished-at="2022-01-27T12:33:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- a1_sample1.A1_SampleTest1 -->
+    </test> <!-- Google -->
+    <test name="Bing" duration-ms="7895" started-at="2022-01-27T07:03:17Z" finished-at="2022-01-27T07:03:25Z">
+      <class name="a2_sample.A1_SampleTest2">
+        <test-method status="PASS" signature="loadGoogle()[pri:0, instance:a2_sample.A1_SampleTest2@4b4523f8]" name="loadGoogle" duration-ms="7302" started-at="2022-01-27T12:33:17Z" finished-at="2022-01-27T12:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadGoogle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:a2_sample.A1_SampleTest2@4b4523f8]" name="tearDown" is-config="true" duration-ms="580" started-at="2022-01-27T12:33:24Z" finished-at="2022-01-27T12:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- a2_sample.A1_SampleTest2 -->
+    </test> <!-- Bing -->
+  </suite> <!-- Suite -->
+</testng-results>
